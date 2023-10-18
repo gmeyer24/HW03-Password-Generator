@@ -6,7 +6,7 @@ function writePassword() {
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
-
+}
   // parseInt turns the user's input, which is a string in a prompt, into a number. Need to compare numbers for a min/max password length.
   function generatePassword() {
     var minLength = parseInt(
@@ -64,7 +64,7 @@ function writePassword() {
     }
     return password;
   }
-}
+
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
