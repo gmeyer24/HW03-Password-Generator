@@ -17,7 +17,7 @@ function writePassword() {
     // isNaN stands for is not a number. User cannot move forward if a number is not entered.
     if (isNaN(minLength) || minLength < 8 || minLength > maxLength) {
       alert(
-        "Please enter a valid password length between 8 and 128 characters."
+        "Please enter a password length between 8 and 128 characters."
       );
       return;
     }
