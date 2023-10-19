@@ -10,7 +10,7 @@ function writePassword() {
   // parseInt turns the user's input, which is a string in a prompt, into a number. Need to compare numbers for a min/max password length.
   function generatePassword() {
     var minLength = parseInt(
-      prompt("How many characters would you like your password to be?")
+      prompt("How many characters would you like your password to be? Please choose between 8 and 128 characters.")
     );
     var maxLength = 128;
 
@@ -24,12 +24,12 @@ function writePassword() {
 
     var includeLowercase = confirm("Include lowercase characters?");
     var includeUppercase = confirm("Include uppercase characters?");
-    var includeNumbers = confirm("Include numeric values?");
+    var includeNumbers = confirm("Include numbers?");
     var includeSpecialChars = confirm("Include special characters?");
 
     var lowercaseChars = "abcdefghijklmnopqrstuvwxyz";
     var uppercaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    var numberChars = "0123456789";
+    var numberChars = "012346789";
     var specialChars = '!@#$%^&*()_+{}[]|\:;"<>,.?/~';
 
     var allChars = "";
