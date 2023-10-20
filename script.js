@@ -7,7 +7,7 @@ function writePassword() {
 
   passwordText.value = password;
 }
-// parseInt turns the user's input, which is a string in a prompt, into a number. Need to compare numbers for a min/max password length.
+// parseInt turns the user's input in the prompt, which is a string, into a number. Need to compare numbers for a min/max password length.
 function generatePassword() {
   var minLength = parseInt(
     prompt(
