@@ -86,7 +86,7 @@ The objective of this project was to modify starter code to create an applicatio
 
 [![Password Generator Deployed Link][product-screenshot]](https://gmeyer24.github.io/HW03-Password-Generator/)
 
-![Alt text](image.png)
+![Alt text](Images/image.png)
 
 <!-- Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `gmeyer24`, `HW03-Password-Generator`, ``, `gavinpmeyer`, `gmail`, `gpmeyer24`, `HW03-Password Generator`, `project_description` -->
 
@@ -143,26 +143,26 @@ This is an example of how to list things you need to use the software and how to
 
 1. Click on generate password to start the procress.
 
-![Alt text](image-1.png)
+![Alt text](Images/image-1.png)
 
 2. Enter how many characters you would like your password to be. 
 
-![Alt text](image-2.png)
+![Alt text](Images/image-2.png)
 
 3. Please select if you would like to include the below character types one by one.
 
-![Alt text](image-3.png)
+![Alt text](Images/image-3.png)
 
-![Alt text](image-4.png)
+![Alt text](Images/image-4.png)
 
-![Alt text](image-5.png)
+![Alt text](Images/image-5.png)
 
-![Alt text](image-6.png)
+![Alt text](Images/image-6.png)
 
 
 4. Password has been generated.
 
-![Alt text](image-7.png)
+![Alt text](Images/image-7.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
